@@ -51,7 +51,7 @@
     <string name="tr_set_graduate_school">毕业学校</string>
     <string name="tv_set_graduate_school">请选择毕业学校</string>
     <string name="tr_set_graduate_time">毕业时间</string>
-    <string name="tv_set_graduate_time">请输入毕业时间</string>
+    <string name="tv_set_graduate_time">请选择毕业时间</string>
     <string name="tr_set_company_name">公司名称</string>
     <string name="tv_set_company_name">请输入公司名称</string>
     <string name="tr_set_team_number">团队人数</string>
