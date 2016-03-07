@@ -21,7 +21,7 @@ public class ServiceIncubator extends BmobObject{
 	private Integer termNumberCount;//团队人数
 	private BmobDate settledExpectTime;//期望入驻时间
 	private String remarks;//备注
-	private User applicat;//申请人
+	private User applicant;//申请人
 	private Integer state;//
 
 	
@@ -93,11 +93,13 @@ public class ServiceIncubator extends BmobObject{
 	public void setRemarks(String remarks) {
 		this.remarks = remarks;
 	}
-	public User getApplicat() {
-		return applicat;
+	
+	
+	public User getApplicant() {
+		return applicant;
 	}
-	public void setApplicat(User applicat) {
-		this.applicat = applicat;
+	public void setApplicant(User applicant) {
+		this.applicant = applicant;
 	}
 	public Integer getState() {
 		return state;
