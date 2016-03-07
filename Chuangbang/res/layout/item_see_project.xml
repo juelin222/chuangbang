@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView 
+            android:id="@+id/iv_see_project_avater"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            
+            android:src="@drawable/ic_launcher"
+            />
+            
+        </LinearLayout>
+            
+        
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"
+            android:orientation="vertical">
+            <TextView 
+                android:id="@+id/tv_see_project_proName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:text="优点APP"
+                
+                android:textColor="#31BCF1"/>
+            
+            <TextView 
+                android:id="@+id/tv_see_project_proDescription"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:maxEms="11"
+                android:ellipsize="end"
+                
+                android:textColor="#000000"
+                android:text="优点app是一个时间出售与技能的专项"
+                android:paddingTop="8dp"/>
+            
+            <TextView 
+                android:id="@+id/tv_see_project_proLocation"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:text="上海：已运营"
+                android:paddingTop="8dp"/>
+            
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>
